@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Site</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white py-4">
+    <div class="container mx-auto px-4">
+      <h1 class="text-xl font-bold">My Mobile Site</h1>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-6">
+    <section class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Welcome</h2>
+      <p class="text-gray-700">This is a simple mobile-friendly website built with Tailwind CSS.</p>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Features</h2>
+      <ul class="list-disc pl-5">
+        <li>Responsive design</li>
+        <li>Fast and lightweight</li>
+        <li>Easy to customize</li>
+      </ul>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Meme of the Day</h2>
+      <div class="flex justify-center">
+        <img src="https://i.imgflip.com/30b1gx.jpg" alt="Meme" class="rounded-lg shadow-md max-w-full">
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-semibold mb-2">Contact Us</h2>
+      <form class="space-y-4">
+        <div>
+          <label for="name" class="block text-sm font-medium">Name</label>
+          <input type="text" id="name" name="name" class="block w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-300">
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium">Email</label>
+          <input type="email" id="email" name="email" class="block w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-300">
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700">Submit</button>
+      </form>
+    </section>
+
+    <section class="mt-6 flex space-x-4">
+      <button class="bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600">Я подумаю</button>
+      <button class="bg-red-500 text-white py-2 px-4 rounded-md hover:bg-red-600">Наерное</button>
+    </section>
+  </main>
+
+</body>
+</html>
+
